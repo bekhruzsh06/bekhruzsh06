@@ -1,7 +1,7 @@
 # Hi, I'm Bekhruz 👋
 
 
-## Cybersecurity Enthusiast | SOC Analyst | Detection Engineering Learner
+## Cybersecurity Enthusiast | SOC | Detection Engineering Learner
 
 I’m passionate about cybersecurity, blue teaming, detection engineering, and building practical SOC environments from scratch.  
 Currently focused on SIEM monitoring, incident response workflows, threat detection, and endpoint telemetry analysis.
