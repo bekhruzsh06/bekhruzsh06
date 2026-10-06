@@ -1,143 +1,91 @@
 # Hi, I'm Bekhruz 👋
 
+**Penetration Tester | Active Directory Security | Red Team, with a Blue Team mindset**
 
-## Cybersecurity Enthusiast | SOC | Detection Engineering Learner
-
-I’m passionate about cybersecurity, blue teaming, detection engineering, and building practical SOC environments from scratch.  
-Currently focused on SIEM monitoring, incident response workflows, threat detection, and endpoint telemetry analysis.
+Second-year BSc Cybersecurity student at Aston University. I attack Active Directory environments, then build the detections that would catch me. Hands-on experience in authorized black-box pentesting, vulnerability management, SOC tooling and detection engineering.
 
 ---
 
+## 🏆 Certifications
 
-
----
-
-# 🧪 Current Project — SOC Automation Lab
-
-A practical cybersecurity lab designed to simulate real-world attack and detection scenarios.
-
-## 🔥 Detection Scenarios
-
-- SSH brute-force detection
-- Mimikatz detection using Sysmon
-- Authentication failure monitoring
-- Custom Wazuh correlation rules
-- MITRE ATT&CK aligned detections
-- Elastic/OpenSearch alert analysis
-- Incident handling workflows with TheHive
-
-# # 🛠️ Technologies
- 
-# ## Security Tools
-- Wazuh
-- TheHive
-- Sysmon
-- Hydra
-- Mimikatz
-- OpenSSH
-- Elasticsearch / OpenSearch
-
-### Operating Systems
-- Kali Linux
-- Windows 10
-- Ubuntu Server
-
-### Infrastructure
-- VirtualBox
-- NAT / NAT Network configurations
-- Linux networking
-- Syslog & Journald log collection
+- ✅ **CDSA** – Certified Defensive Security Analyst (HackTheBox)
+- ✅ **CompTIA A+** and **CompTIA Network+**
+- ✅ **Google Cybersecurity Professional Certificate**
+- 🚧 **CPTS** – Certified Penetration Testing Specialist (HackTheBox), **81% complete**
 
 ---
 
-# 📚 Learning Journey
+## 🧪 Projects & Labs
 
-## Hack The Box
+### 🔴 HackTheBox: Active Directory Labs
+Compromised multiple AD environments from initial foothold to full domain compromise.
+- Kerberoasting and AS-REP Roasting with offline hash cracking
+- BloodHound / SharpHound attack-path and ACL-abuse analysis
+- Pass-the-Hash / Pass-the-Ticket lateral movement
+- DCSync with Impacket `secretsdump`, Golden Tickets with Mimikatz
+- Privilege escalation (Linux/Windows), SSH tunnelling and pivoting
 
-- ✅ Completed **CJCA (Certified Junior Cybersecurity Associate)** path
-- 🚧 Currently progressing through **CPTS (Certified Penetration Testing Specialist)** — 50% completed
+### 🔵 Home SOC Lab: Detection & Response
+Defensive environment built to detect the same attacks I practise offensively.
+- Wazuh, Elastic Security (ELK), TheHive, Shuffle (SOAR), Sysmon
+- Simulated Mimikatz credential dumping and SSH/Windows brute-force attacks
+- Custom Wazuh correlation rules tuned for reliable detection
+- MITRE ATT&CK-aligned detections and incident handling workflows in TheHive
 
-## Current Focus Areas
+### 🕵️ CDSA: Incident Investigation
+- End-to-end investigations and threat hunting in Elasticsearch and Splunk
+- Findings mapped to MITRE ATT&CK
+- Reports covering attack timeline, detection gaps and remediation steps
 
-- Detection Engineering
-- SIEM & Log Analysis
-- Windows Telemetry
-- Threat Hunting
-- Incident Response
-- MITRE ATT&CK
-- SOC Automation
+### 🏢 Home Enterprise Lab: AD, DNS & File Services
+- Multi-machine AD domain with OU / security-group segmentation
+- Authoritative BIND9 DNS server and Samba / legacy SMB file servers
+- Red-teaming my own build (zone transfers, AD attacks) to see how DNS, SMB and AD misconfigurations become attack paths
 
 ---
 
-# 🧰 Skills
+## 💼 Experience
 
-```yaml
-SIEM & Detection:
-  - Wazuh
-  - Elasticsearch
-  - OpenSearch
-  - Sysmon
-  - Custom Detection Rules
-  - MITRE ATT&CK Mapping
+**IT Support & Security Specialist, UzCosmos** *(Jun – Sep 2026)*
+- Authorized black-box testing of domain controllers, internal hosts and external web services: identified and remediated 3 high- and 4 medium-severity vulnerabilities
+- Deployed OpenVAS for scheduled internal assessments and a GoPhish server; remediated 2 high-severity findings and triaged 12 medium-severity vulnerabilities
+- Inventoried IT infrastructure (4 sites, 7 locations) and mapped it in NetBox
+- Supported 100+ staff with hardware and software issues
 
-Pentesting:
-  - Nmap
-  - Metasploit Framework
-  - Hydra
-  - Password Attacks
-  - Kerberos Attacks
-  - Pivoting
-  - Port Forwarding
-  - Tunneling
-  - Enumeration
-  - Vulnerability Assessment
-  - Attacking Common Services
+---
 
-Operating Systems:
-  - Linux
-  - Windows
+## 🛠️ Technologies
 
-Networking:
-  - TCP/IP
-  - OSI Model
-  - DNS
-  - DHCP
-  - NAT / PAT
-  - Routing & Switching Fundamentals
-  - Subnetting
-  - Virtual Networking
-  - SSH
+| Area | Stack |
+|---|---|
+| **AD Attacks** | Kerberoasting, AS-REP Roasting, Pass-the-Hash/Ticket, DCSync, Golden/Silver Ticket, ACL abuse |
+| **Pentesting** | OWASP & MITRE ATT&CK methodology, recon, exploitation, privilege escalation, pivoting, tunnelling |
+| **Offensive Tools** | Mimikatz, BloodHound, Rubeus, CrackMapExec, Impacket, Nmap, Burp Suite, Metasploit, Hydra |
+| **Defense / SOC** | Wazuh, Elastic (ELK) / OpenSearch, Splunk, Sysmon, TheHive, Shuffle (SOAR), GoPhish, OpenVAS, NetBox |
+| **Systems** | Linux (Ubuntu, Kali), Windows / Windows Server, Active Directory, Docker, virtualization (VirtualBox) |
+| **Networking** | TCP/IP, OSI, DNS (BIND9), DHCP, NAT/PAT, SMB, SSH, Syslog & Journald |
+| **Scripting** | Bash, PowerShell, Python, basic SQL, YAML, XML |
 
-Scripting & Querying:
-  - Bash
-  - PowerShell
-  - XML
-  - YAML
-  - Basic SQL Queries
+---
 
-Virtualization & Infrastructure:
-  - VirtualBox
-  - NAT Network Configuration
-  - Linux Networking
-  - Cloud-based Lab Deployment
-```
+## 🎯 Currently Focused On
 
+- Finishing **CPTS** (HackTheBox)
+- Detection engineering and SIEM / log analysis
+- Windows telemetry, threat hunting and incident response
+- Active Directory attack paths and their detections
 
-# 🎯 Goals
+## 🌱 Goals
 
-- Become a SOC Analyst / Detection Engineer
-- Deepen knowledge in DFIR and Threat Hunting
+- Become a red team specialist with strong detection-engineering foundations
+- Deepen knowledge in DFIR and threat hunting
 - Contribute to open-source security projects
-- Continue progressing through Hack The Box certifications
-- Ultimately, gain position as a red team specialist
+- Keep progressing through HackTheBox certifications
 
 ---
 
-# 📫 Connect With Me
+## 📫 Connect With Me
 
-- GitHub: https://github.com/bekhruzsh06
-- LinkedIn: www.linkedin.com/in/bekhruz-shariksiev-177901330
-
----
-
-> “Learn by building, break things safely, detect everything.”
+- 💼 LinkedIn: [bekhruz-shariksiev](https://www.linkedin.com/in/bekhruz-shariksiev-177901330/)
+- 🐙 GitHub: [bekhruzsh06](https://github.com/bekhruzsh06)
+- 📧 bekhruzjob@gmail.com
